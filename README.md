@@ -17,19 +17,19 @@ This is a demo Intern Portal Project built using Flask for backend and HTML/CSS/
 
 ## Setup Instructions
 1. Clone the Repository
-git clone https://github.com/amrita-bera/intern-portal.git
+git clone https://github.com/amrita-bera/intern-portal.git and then 
 cd intern-portal
 
-2. Create a Virtual Environment (Optional but Recommended)
+2. Create a Virtual Environment (Optional but Recommended) : 
 python -m venv venv
 
-3. Install Dependencies
+3. Install Dependencies : 
 pip install -r requirements.txt
 
-4. Run the Project
+4. Run the Project : 
 python app.py
 
-5. View the App
+5. View the App : 
 Open your browser and go to:
 http://127.0.0.1:5000/
 
@@ -38,10 +38,8 @@ http://127.0.0.1:5000/
 <img width="1906" height="705" alt="image" src="https://github.com/user-attachments/assets/f5e90c5e-9e8f-4283-8bbb-d6aec59a99a7" />
 
 2. Login Page and SignUp Page
-**Login Page**
 <img width="1918" height="765" alt="image" src="https://github.com/user-attachments/assets/d6bd588b-1d56-4129-82b3-218c64db4cf0" />
 
-**SignUp Page**
 <img width="1895" height="776" alt="image" src="https://github.com/user-attachments/assets/b33b69a2-d532-40a4-909e-e8b354919b11" />
 
 
