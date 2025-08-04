@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Intern Portal</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <form id="login-form">
+            <input type="email" id="login-email" placeholder="Email" required><br>
+            <input type="password" id="login-password" placeholder="Password" required><br>
+            <select id="user-select" required>
+                <option value="">Select User to Login As</option>
+                <option value="1">John Doe (ID: 1)</option>
+                <option value="2">Jane Smith (ID: 2)</option>
+                <option value="3">Mike Johnson (ID: 3)</option>
+            </select><br>
+            <button type="submit">Login</button>
+        </form>
+        <div id="message"></div>
+        <a href="/signup">Don't have an account? Signup</a><br>
+        <a href="/">Back to Home</a>
+    </div>
+    <script src="/static/login.js"></script>
+</body>
+</html>

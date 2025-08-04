@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "referral_code": "johndoe2025",
+      "total_donations": 1250,
+      "rewards": [
+        {"id": 1, "name": "Coffee Voucher", "description": "Free coffee at campus cafe", "unlocked": true},
+        {"id": 2, "name": "Lunch Pass", "description": "Free lunch at cafeteria", "unlocked": true},
+        {"id": 3, "name": "Gift Card", "description": "$25 Amazon gift card", "unlocked": false},
+        {"id": 4, "name": "Mentorship Session", "description": "1-hour session with senior developer", "unlocked": false}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "referral_code": "janesmith2025",
+      "total_donations": 2100,
+      "rewards": [
+        {"id": 1, "name": "Coffee Voucher", "description": "Free coffee at campus cafe", "unlocked": true},
+        {"id": 2, "name": "Lunch Pass", "description": "Free lunch at cafeteria", "unlocked": true},
+        {"id": 3, "name": "Gift Card", "description": "$25 Amazon gift card", "unlocked": true},
+        {"id": 4, "name": "Mentorship Session", "description": "1-hour session with senior developer", "unlocked": false}
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Mike Johnson",
+      "email": "mike.johnson@example.com",
+      "referral_code": "mikejohnson2025",
+      "total_donations": 800,
+      "rewards": [
+        {"id": 1, "name": "Coffee Voucher", "description": "Free coffee at campus cafe", "unlocked": true},
+        {"id": 2, "name": "Lunch Pass", "description": "Free lunch at cafeteria", "unlocked": false},
+        {"id": 3, "name": "Gift Card", "description": "$25 Amazon gift card", "unlocked": false},
+        {"id": 4, "name": "Mentorship Session", "description": "1-hour session with senior developer", "unlocked": false}
+      ]
+    }
+  ]
+} 
